@@ -1,7 +1,10 @@
+
+
 # Fsociety DDoS GUI
 
 Fsociety DDoS GUI adalah aplikasi untuk melakukan serangan DDoS (Distributed Denial of Service) sederhana menggunakan PyQt5 sebagai antarmuka grafis (GUI) dan Requests untuk mengirim permintaan HTTP ke target. Aplikasi ini memungkinkan pengguna untuk mengkonfigurasi jumlah permintaan, mode stealth, serta penggunaan proxy, dan menampilkan log serangan di GUI.
 
+## DEVELOPER : PYSCODES
 
 ## Fitur 🚀
 
@@ -27,7 +30,6 @@ Aplikasi ini mendukung berbagai sistem operasi dan memerlukan beberapa dependens
 - **Requests**: Digunakan untuk mengirim permintaan HTTP.
 
 ## SCREENSHOOT 
-![2025-03-02_04-38](https://github.com/user-attachments/assets/a975afde-4488-4f47-b2df-7b5ec05832cd)
 
 ![2025-03-02_04-28](https://github.com/user-attachments/assets/229f4103-a253-4010-ab2c-a83ebefdb2b3)
 
@@ -159,7 +161,8 @@ Ini akan meluncurkan antarmuka grafis PyQt5 dan Anda dapat memulai serangan DDoS
 
 Berikut adalah tampilan antarmuka aplikasi:
 
-![Tampilan Fsociety DDoS GUI](screenshot.png)
+![2025-03-02_04-38](https://github.com/user-attachments/assets/5c4dfcac-3044-46e1-b1e9-f8b59c979c85)
+
 
 ## Pengembangan 💡
 
@@ -174,4 +177,16 @@ Aplikasi ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) u
 
 ---
 
-Semoga README ini lebih menarik dan mudah dipahami dengan penggunaan emotikon!
+## **Kontak** 📞
+
+Jika Anda mengalami masalah atau membutuhkan bantuan, Anda bisa menghubungi kami melalui:
+
+- **Email**: [pyscodes@mail2tor.com](mailto:pyscodes@mail2tor.com)
+- **GitHub Issues**: [Laporan Masalah atau Bug](https://github.com/username/fsociety-ddos-gui/issues)
+- **instagram**: [@pyscodesl](https://instagram.com/pyscodes)
+
+Kami siap membantu Anda! ✨
+
+---
+
+Dengan penambahan bagian **Kontak** ini, pengguna dapat lebih mudah menghubungi tim pengembang untuk bantuan atau masalah terkait aplikasi.

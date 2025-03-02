@@ -1,5 +1,3 @@
-
-
 # Fsociety DDoS GUI
 
 Fsociety DDoS GUI adalah aplikasi untuk melakukan serangan DDoS (Distributed Denial of Service) sederhana menggunakan PyQt5 sebagai antarmuka grafis (GUI) dan Requests untuk mengirim permintaan HTTP ke target. Aplikasi ini memungkinkan pengguna untuk mengkonfigurasi jumlah permintaan, mode stealth, serta penggunaan proxy, dan menampilkan log serangan di GUI.
@@ -29,20 +27,15 @@ Aplikasi ini mendukung berbagai sistem operasi dan memerlukan beberapa dependens
 - **PyQt5**: Digunakan untuk antarmuka grafis.
 - **Requests**: Digunakan untuk mengirim permintaan HTTP.
 
-## SCREENSHOOT 
+## Cara Penginstalan 🔧
 
-![2025-03-02_04-28](https://github.com/user-attachments/assets/229f4103-a253-4010-ab2c-a83ebefdb2b3)
-
-
-### Cara Penginstalan 🔧
-
-#### Di Windows 🖥️
+### Di Windows 🖥️
 
 1. **Instal Python**:
    Unduh dan pasang Python 3.x dari [situs resmi Python](https://www.python.org/downloads/) 🐍.
    
 2. **Clone repositori**:
-   Buka Command Prompt dan jalankan perintah berikut untuk mengkloning repositori ini:
+   Buka Command Prompt dan jalankan perintah berikut:
    
    ```bash
    git clone https://github.com/username/fsociety-ddos-gui.git
@@ -50,7 +43,6 @@ Aplikasi ini mendukung berbagai sistem operasi dan memerlukan beberapa dependens
    ```
 
 3. **Instal dependensi**:
-   Buat virtual environment (opsional) dan instal dependensi yang dibutuhkan dengan perintah berikut:
    
    ```bash
    python -m venv venv
@@ -59,16 +51,14 @@ Aplikasi ini mendukung berbagai sistem operasi dan memerlukan beberapa dependens
    ```
 
 4. **Jalankan aplikasi**:
-   Setelah semua dependensi terinstal, jalankan aplikasi dengan perintah:
    
    ```bash
-   python app.py
+   python Fsociety-Ddos.py
    ```
 
-#### Di Linux 🐧
+### Di Linux 🐧
 
 1. **Instal Python**:
-   Gunakan manajer paket untuk menginstal Python 3.x jika belum terinstal. Pada Ubuntu atau Debian:
    
    ```bash
    sudo apt update
@@ -76,7 +66,6 @@ Aplikasi ini mendukung berbagai sistem operasi dan memerlukan beberapa dependens
    ```
 
 2. **Clone repositori**:
-   Buka terminal dan jalankan perintah berikut untuk mengkloning repositori ini:
    
    ```bash
    git clone https://github.com/username/fsociety-ddos-gui.git
@@ -84,38 +73,28 @@ Aplikasi ini mendukung berbagai sistem operasi dan memerlukan beberapa dependens
    ```
 
 3. **Instal dependensi**:
-   Buat virtual environment (opsional) dan instal dependensi yang dibutuhkan dengan perintah berikut:
    
    ```bash
    python3 -m venv venv
-   source venv/bin/activate  # Untuk Linux/MacOS
+   source venv/bin/activate
    pip install -r requirements.txt
    ```
 
 4. **Jalankan aplikasi**:
-   Setelah semua dependensi terinstal, jalankan aplikasi dengan perintah:
    
    ```bash
-   python3 app.py
+   python3 Fsociety-Ddos.py
    ```
 
-#### Di macOS 🍏
+### Di macOS 🍏
 
 1. **Instal Python**:
-   macOS biasanya sudah dilengkapi dengan Python 3. Anda bisa memeriksanya dengan perintah berikut:
-   
-   ```bash
-   python3 --version
-   ```
-
-   Jika tidak ada, Anda bisa menginstalnya menggunakan Homebrew:
    
    ```bash
    brew install python
    ```
 
 2. **Clone repositori**:
-   Buka terminal dan jalankan perintah berikut untuk mengkloning repositori ini:
    
    ```bash
    git clone https://github.com/username/fsociety-ddos-gui.git
@@ -123,46 +102,27 @@ Aplikasi ini mendukung berbagai sistem operasi dan memerlukan beberapa dependens
    ```
 
 3. **Instal dependensi**:
-   Buat virtual environment (opsional) dan instal dependensi yang dibutuhkan dengan perintah berikut:
    
    ```bash
    python3 -m venv venv
-   source venv/bin/activate  # Untuk Linux/MacOS
+   source venv/bin/activate
    pip install -r requirements.txt
    ```
 
 4. **Jalankan aplikasi**:
-   Setelah semua dependensi terinstal, jalankan aplikasi dengan perintah:
    
    ```bash
-   python3 app.py
+   python3 Fsociety-Ddos.py
    ```
 
-### Menjalankan Aplikasi ▶️
+## Penggunaan 🛠️
 
-Setelah semua dependensi terinstal, Anda dapat menjalankan aplikasi dengan perintah berikut:
-
-```bash
-python app.py
-```
-
-Ini akan meluncurkan antarmuka grafis PyQt5 dan Anda dapat memulai serangan DDoS dengan memasukkan URL target dan jumlah permintaan.
-
-### Penggunaan 🛠️
-
-1. Masukkan URL target pada kolom **Target URL** 🌍.
-2. Masukkan jumlah permintaan yang ingin dikirim pada kolom **Number of Requests** 🔢.
+1. Masukkan URL target pada kolom **Target URL** 🌐.
+2. Masukkan jumlah permintaan yang ingin dikirim pada kolom **Number of Requests** 👖.
 3. Pilih **Enable Stealth Mode** untuk menggunakan mode stealth 🕶️.
-4. Pilih **Enable Proxy (Auto Fetch)** jika Anda ingin menggunakan proxy secara otomatis 🌍.
+4. Pilih **Enable Proxy (Auto Fetch)** jika ingin menggunakan proxy secara otomatis 🌍.
 5. Klik **Start Attack** untuk memulai serangan 🚀.
 6. Klik **Stop Attack** untuk menghentikan serangan ✋.
-
-### Contoh Tampilan 👀
-
-Berikut adalah tampilan antarmuka aplikasi:
-
-![2025-03-02_04-38](https://github.com/user-attachments/assets/5c4dfcac-3044-46e1-b1e9-f8b59c979c85)
-
 
 ## Pengembangan 💡
 
@@ -175,18 +135,13 @@ Jika Anda ingin mengembangkan aplikasi ini lebih lanjut, Anda bisa melakukan for
 
 Aplikasi ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut.
 
----
-
 ## **Kontak** 📞
 
 Jika Anda mengalami masalah atau membutuhkan bantuan, Anda bisa menghubungi kami melalui:
 
 - **Email**: [pyscodes@mail2tor.com](mailto:pyscodes@mail2tor.com)
 - **GitHub Issues**: [Laporan Masalah atau Bug](https://github.com/username/fsociety-ddos-gui/issues)
-- **instagram**: [@pyscodesl](https://instagram.com/pyscodes)
+- **Instagram**: [@pyscodesl](https://instagram.com/pyscodes)
 
 Kami siap membantu Anda! ✨
 
----
-
-Dengan penambahan bagian **Kontak** ini, pengguna dapat lebih mudah menghubungi tim pengembang untuk bantuan atau masalah terkait aplikasi.

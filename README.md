@@ -7,7 +7,8 @@ Fsociety DDoS GUI adalah aplikasi untuk melakukan serangan DDoS (Distributed Den
 ## DEVELOPER : PYSCODES
 -------------------------
 ## SCREENSHOOT   
-![2025-03-02_04-38](https://github.com/user-attachments/assets/7f16ac9e-2f46-4977-9ec2-faa4e9de809f)
+![2025-03-02_04-38](https://github.com/user-attachments/assets/7f16ac9e-2f46-4977-9ec2-faa4e9de809f) ,![2025-03-04_03-49](https://github.com/user-attachments/assets/4cb58720-109e-4944-a5b9-b24cc45fc403)
+
 
 
 ## Fitur 🚀

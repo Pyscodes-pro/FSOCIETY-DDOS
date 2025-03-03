@@ -1,6 +1,6 @@
 🌍 [English](README_ENGLISH.md) | 🇮🇩 [Bahasa Indonesia](README.md)
 ---
-# Fsociety DDoS GUI DAN VERSI BIASA
+# Fsociety DDoS GUI DAN NON GUI ( Termux )
 
 Fsociety DDoS GUI adalah aplikasi untuk melakukan serangan DDoS (Distributed Denial of Service) sederhana menggunakan PyQt5 sebagai antarmuka grafis (GUI) dan Requests untuk mengirim permintaan HTTP ke target. Aplikasi ini memungkinkan pengguna untuk mengkonfigurasi jumlah permintaan, mode stealth, serta penggunaan proxy, dan menampilkan log serangan di GUI.
 

@@ -1,2 +1,5 @@
 requests==2.28.1
 PyQt5==5.15.7
+requests
+beautifulsoup4
+aiohttp

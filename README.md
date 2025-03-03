@@ -1,6 +1,6 @@
 🌍 [English](README_ENGLISH.md) | 🇮🇩 [Bahasa Indonesia](README.md)
 ---
-# Fsociety DDoS GUI
+# Fsociety DDoS GUI DAN VERSI BIASA
 
 Fsociety DDoS GUI adalah aplikasi untuk melakukan serangan DDoS (Distributed Denial of Service) sederhana menggunakan PyQt5 sebagai antarmuka grafis (GUI) dan Requests untuk mengirim permintaan HTTP ke target. Aplikasi ini memungkinkan pengguna untuk mengkonfigurasi jumlah permintaan, mode stealth, serta penggunaan proxy, dan menampilkan log serangan di GUI.
 
@@ -26,7 +26,7 @@ Aplikasi ini mendukung berbagai sistem operasi dan memerlukan beberapa dependens
 - **Windows**: Aplikasi ini sepenuhnya mendukung Windows 10/11.
 - **Linux**: Aplikasi ini dapat dijalankan di distribusi Linux seperti Ubuntu, Kali Linux, dan lainnya.
 - **macOS**: Aplikasi ini dapat dijalankan pada macOS dengan Python 3.x.
-
+-- **termux** ( pakai yang non gui )
 ### Dependensi yang Dibutuhkan 📦
 
 - **Python 3.x**: Pastikan Python versi 3 sudah terinstal di sistem Anda.
